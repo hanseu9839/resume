@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <title>한승균 | Backend Engineer</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />  
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+<div class="container">
+
+  <!-- Header -->
+  <header class="myinfo">
+    <div class="myinfo-left">
+      <h1>한승균</h1>
+      <img src="프로필사진.jpg" alt="프로필 사진" class="profile-img" />
+      <h2>서버 백엔드 & 인프라 엔지니어</h2>
+    </div>
+  
+    <div class="myinfo-right">
+      <div class="icons">
+        <a href="https://github.com/hanseu9839"><i class="fa-brands fa-github fa-2x"></i></a>
+        <a href="https://www.linkedin.com/in/%EC%8A%B9%EA%B7%A0-%ED%95%9C-7a7795301/"><i class="fa-brands fa-linkedin-in fa-2x"></i></a>
+        <a href="https://seounggyun.tistory.com/"><i class="fa-solid fa-t"></i></a>
+      </div>
+      <div class="contect">
+        <p>Email: hanseu9839@gmail.com</p>
+        <p>Phone : 010-2660-9839</p>
+      </div>
+    </div>
+  </header>
+
+  <!-- About -->
+  <section>
+    <h3>About Me</h3>
+    <p>
+      현재 등기소다 프롭테크 플랫폼의 백엔드 개발 및 인프라를 담당하며, 토스뱅크·카카오뱅크·케이뱅크 등 1금융권과 연계된 부동산 등기 및 거래 프로세스를 안정적으로 운영하고 있습니다. 평균 300건 이상의 부동산 거래 트래픽을 처리하며, 금융권의 엄격한 파일처리 보안 규정 및 계산 비즈니스 로직을 정확하게 구현하며 테스트 코드를 작성하는 것에 강점이 있습니다.
+      <br><br>
+    이외에도 삼성SDI 사내보안으로 많은 라이브러리를 쓰지 못했던 제한적인 환경 속에서도 최선을 다해 문제를 해결할 방법을 고민하며, 주어진 상황에서 해결책을 찾아내는 능력을 배웠습니다. MEMS 서비스에서 최소 60만 건 이상의 설비 관련 데이터를 관리하며, 천진, 말레이, 헝가리 등 총 7개의 거점 서버를  1년 4개월 동안 배포하고 유지보수 업무를 수행한 경험이 있습니다.
+    </p>
+  </section>
+
+  <!-- Experience -->
+  <section>
+    <h3>Experience</h3>
+
+    <div class="item">
+      <h4>로앤텍</h4>
+      <p class="period">2025.02 ~ 재직 중</p>
+
+      <div class="detail-table">
+        <div class="detail-row">
+          <div class="detail-label">핵심역량</div>
+          
+          <div class="detail-content">
+            <ul>
+              <li>부동산 등기 변동이력 크롤링 개발 : 비즈니스 모델에 맞춘 AWS 인프라 구성 및 데이터베이스 테이블 설계, 서비스 구조 설계를 통한 수익 모델 구현</li>
+              <li>파일 시스템 구조 개선 : 파일 시스템 구조 리팩토링 및 파일 테이블 마이그레이션을 통한 코드 아키텍처 재설계 및 유지보수성 개선</li>
+              <li>부동산 사건 테이블 관련 정규화 진행 : 130개가 넘는 테이블 컬럼을 정규화 작업을 진행하여 데이터 무결성 확보, 조회 성능을 비약적으로 향상</li>
+              <li>부동산 웹,앱 플랫폼 유지보수 및 관리 : 토스·카카오·케이뱅크 등 주요 은행권에서 인입되는 부동산 등기 업무 프로세스의 안정적 서빙 및 데이터 동기화 및 플랫폼 운영</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <p class="project-header">
+        <span class="num">1️⃣</span> 
+        부동산 등기 변동이력 관련 크롤링 서비스 개발 (2025.04 ~ 06)
+      </p>
+      <ul>
+        <li>역할 : 등기소 부동산 차단 시스템 우회를 위한 AWS 서비스 인프라 설계 및 데이터베이스 설계 </li>
+        <li>업무내용 : 부동산 매수인을 위한 등기변동 구독 서비스를 기획 및 설계</li>
+        <li> 핵심성과 : <br>
+            IP 차단 메커니즘 극복 : 대법원 등기소의 접속 제한 정책을 우회하기 위해 AWS Resource(ALB/Lambda 등) 기반의 가변 IP 인프라를 설계하여 수집 안정성 확보. <br> <br>
+            비즈니스 가치 창출 : 부동산 매수인을 위한 등기 변동 구독 모델을 직접 기획·설계하여, 현재 일평균 100명 이상의 유료/실사용자에게 정확한 알림 서비스 제공 중. <br> <br>
+            데이터 무결성 : 부동산 등기 데이터 정합성 위한 도메인 테스트, 통합 테스트 진행하여 데이터 정합성 로직 구현
+        </li>
+      </ul>
+      <p class="project-header">
+        <span class="num">2️⃣</span> 
+        파일 시스템 구조 개선
+      </p>
+      <ul>
+        <li>역할 : 89개의 API 엔드포인트에 산재해 있던 중복 파일 처리 로직과 파편화된 데이터 구조 분석하여 기능 개선 </li>
+        <li>업무내용 : 공통 파일 라이브러리 설계 및 배포</li>
+        <li> 핵심성과 : <br>
+           비즈니스 로직 분리 및 고응집 모듈화 : 각 도메인에 산재한 중복 파일 로직을 추상화 레이어로 통합하여 코드 중복 80%이상 제거 <br> <br>
+           유지보수성 및 생산성 혁신 : 파일 스토리지 의존성을 분리한 표준 인터페이스 구축으로 시스템 확장성 및 유지보수 편의성으로 인한 파일 처리 업무 생산성 효율 40배 향상<br/> <br/>
+        </li>
+      </ul>
+      <p class="project-header">
+        <span class="num">3️⃣</span> 
+        130개 이상의 광대역 컬럼 구조 리팩토링 및 데이터 모델 최적화
+      </p>
+      <ul>
+        <li>역할 : 레거시 부동산 사건 테이블 분석 및 도메인 기반 데이터 모델 재설계(SoC)</li>
+        <li>업무내용 : 130여 개 컬럼의 단일 테이블 정규화, 인덱스 전략 수립 및 백엔드 쿼리 최적화</li>
+        <li> 핵심성과 : <br>
+            데이터 무결성 및 관리 효율성 극대화 : 파편화된 130여 개의 컬럼을 도메인 별로 분리하여 데이터 중복 제거 및 무결성 확보 <br/> <br/>
+            조회 성능 최적화 및 DB 부하 감소 : 
+        </li>
+      </ul>
+    </div>
+
+    <div class="item">
+      <h4>이전 회사</h4>
+      <p class="period">2019 ~ 2021</p>
+      <ul>
+        <li>Spring Boot 기반 서비스 개발</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- Skills -->
+  <section>
+    <h3>Skill</h3>
+
+    <h4>Backend</h4>
+    <ul>
+      <li>Java / Spring Boot</li>
+      <li>JPA / MySQL</li>
+    </ul>
+
+    <h4>DevOps</h4>
+    <ul>
+      <li>AWS / Docker</li>
+    </ul>
+  </section>
+
+  <!-- Education -->
+  <section>
+    <h3>Education</h3>
+    <p><strong>안양대학교 컴퓨터공학과</strong></p>
+    <p></p>
+  </section>
+</div>
+
+</body>
+</html>

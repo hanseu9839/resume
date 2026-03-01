@@ -1,6 +1,20 @@
+@font-face {
+    font-family: 'Pretendard';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/pretendard@1.0/Pretendard-Black.woff2') format('woff2');
+    font-weight: 900;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Pretendard';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/pretendard@1.0/Pretendard-Thin.woff2') format('woff2');
+    font-weight: 100;  /* Thin = 100 */
+    font-display: swap;
+}
+
 /* 전체 기본 스타일 */
 body {
-    font-family: Georgia, "Times New Roman", serif;
+    font-family: 'Pretendard', sans-serif;
     line-height: 1.7;
     color: #222;
     background: white;
